@@ -1,0 +1,6 @@
+.NESTO__price__input__row > *:not(:last-child) {
+  flex-basis: calc(100% - 45px - 10px / 5);
+}
+.NESTO__price__input__row {
+  gap: 15px;
+}

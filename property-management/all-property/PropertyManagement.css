@@ -1,0 +1,40 @@
+.NESTO__admin__main__add__property__steps .btn {
+  width: 25px;
+  height: 25px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+
+.NESTO__admin__main__add__property__steps .btn span {
+  width: 200px !important;
+  text-align: left;
+  color: #000;
+}
+
+.NESTO__admin__main__add__property__steps .active-step {
+  background-color: #278fd9 !important;
+  color: #ffffff !important;
+}
+
+.NESTO__admin__main__add__property__steps .active-step-success {
+  background-color: #4ade80 !important;
+  color: #ffffff !important;
+}
+
+.NESTO__admin__main__add__property__steps {
+  background-color: rgba(217, 217, 217, 0.44);
+  border-radius: 121.755px;
+}
+
+/* .NESTO__admin__main__add__property__steps__column {
+  z-index: 99999;
+} */
+
+.NESTO__admin__main__add__property__section {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 30px rgba(170, 170, 170, 0.16),
+    0px 10px 20px rgba(194, 194, 194, 0.16);
+  border-radius: 20px;
+}

@@ -1,0 +1,96 @@
+.all__property__table {
+  box-shadow: 0 0 10px rgba(134, 134, 134, 0.2);
+}
+
+.all__property__table thead th {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #bababa;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 13px;
+}
+
+.all__property__table__title {
+  color: #0686e1 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+.all__property__table__subtitle {
+  color: #687182;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Style for tbody */
+.all__property__table tbody td {
+  padding: 13px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #171c26;
+
+  white-space: nowrap;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+
+.all__property__table tbody tr:nth-child(even) {
+  background-color: #f9fafc;
+}
+
+.custom-switch .form-check-input:checked {
+  background-color: #4caf50;
+}
+
+.custom-switch .form-check-input:checked + .form-check-label:before {
+  background-color: #ffffff;
+}
+
+.custom-switch .form-check-input:not(:checked) {
+  background-color: #b0bec5;
+}
+
+.custom-switch .form-check-input:not(:checked) + .form-check-label:before {
+  background-color: #ffffff;
+}
+
+/* Styles for react-bootstrap DropdownButton */
+.custom-dropdown {
+  z-index: 99999;
+}
+.all__property__table .dropdown-menu {
+  background-color: #fff;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 7.4px;
+}
+
+/* Styles for react-bootstrap DropdownButton items */
+.all__property__table .dropdown-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  z-index: 99999;
+}
+
+/* Styles for react-bootstrap DropdownButton items when hovered or selected */
+.all__property__table .dropdown-item:hover,
+.all__property__table .dropdown-item.active {
+  background-color: #eee;
+}
+
+/* .all__property__table table {
+  border-radius: 10px;
+} */
