@@ -1,0 +1,18 @@
+.onboard-table {
+  box-shadow: 0 0 10px rgba(134, 134, 134, 0.2);
+}
+
+.onboard-table thead th {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #bababa;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 13px;
+}

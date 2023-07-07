@@ -1,0 +1,92 @@
+.bm_addbroker {
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  border-style: light;
+  border-width: medium;
+  border-color: rgb(170, 168, 168);
+  border-radius: 10px;
+}
+.bm_headingsearch {
+  background-color: rgb(228, 228, 228);
+  border-color: rgb(146, 142, 142);
+  border: none;
+}
+.bm_addfont {
+  font-weight: 800;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.bm_closeform {
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #23262f;
+}
+.bm_demo {
+  visibility: hidden;
+}
+
+.bm_addform {
+  margin-right: 20px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 112%;
+  color: #4c535f;
+}
+.bm_addbutton {
+  background: #278fd9;
+  border-radius: 6px;
+}
+.bm_resetbutton {
+  background: white;
+  border-radius: 4px;
+  color: #278fd9;
+  font-style: normal;
+  font-size: 16px;
+}
+.bm_colColor {
+  color: #278FD9;
+  ;
+}
+.bm_input_bg {
+  background-color: #EDF2F6;
+}
+.bm_Newbroker
+{
+  background-color: #278FD9;
+}
+.ag-theme-alpine
+{
+  --ag-header-foreground-color: #BABABA;
+  ;
+  --ag-header-background-color: white;
+  --ag-row-border-style: none;
+  --ag-range-selection-border-style: none;
+
+}
+.bm_backgroundColor
+{
+  background-color: #F5F5F5;
+}
+.bm_errorvalidation{
+  color: red;
+}
+
+.second-pop_img_upload_div {
+  border-bottom: 2px solid var(--divider);
+  padding-bottom: 2.2%;
+}
+
+.BcImgDtaShow .ImgDtaProflm {
+  width: 130px;
+  height: 134px;
+}
+
+ .ImgDtaProflm img {
+  width: 30%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 5px;
+}

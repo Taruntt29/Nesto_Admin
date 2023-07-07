@@ -1,0 +1,46 @@
+.profile-upload ul li {
+  width: 135px;
+  height: 141px;
+  background: #f8f8f8;
+  border-radius: 22.5453px;
+}
+
+input[type='file'] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.drag-drop-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 8px;
+  color: #0f0f0f;
+
+  background: #f8f8f8;
+  border-radius: 22.6664px;
+  width: 147.33px;
+  height: 144.7px;
+}
+
+.drag-drop-text-span {
+  font-size: 0.6rem;
+}
+
+.drag-drop-text .upload-link {
+  font-size: 0.7rem;
+}
+
+.drag-drop-text img {
+  width: 50px;
+}
+
+.upload-link {
+  color: blue;
+  cursor: pointer;
+}

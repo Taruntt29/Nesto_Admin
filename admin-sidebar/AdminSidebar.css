@@ -1,0 +1,38 @@
+.NESTO__admin__sidebar {
+  height: 85vh;
+  width: 300px;
+}
+.NESTO__admin__sidebar .nav-link {
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #69748c;
+}
+
+.NESTO__admin__sidebar .nav-pills .nav-link.active {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px !important;
+  color: #020202;
+}
+
+.NESTO__admin__sidebar .collapse .nav-pills .nav-link.active {
+  background-color: #f9f9f9;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  color: #020202;
+}
+
+.NESTO__admin__sidebar .nav-pills .nav-link.active .shadow-icon {
+  background-color: #278fd9 !important;
+  color: #fff;
+}
+
+.collapse-shadow {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+}

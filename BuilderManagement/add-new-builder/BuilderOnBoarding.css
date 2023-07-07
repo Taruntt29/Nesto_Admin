@@ -1,0 +1,20 @@
+.builder-onboarding-step-content-circle {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+.builder-onboarding-step {
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+  background-color: rgba(217, 217, 217, 0.44);
+}
+
+.success-step {
+  color: #fff;
+  background-color: #4ade80;
+}
+
+.default-step {
+  background-color: #278fd9;
+}

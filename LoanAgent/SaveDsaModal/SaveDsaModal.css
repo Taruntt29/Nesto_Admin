@@ -1,0 +1,26 @@
+.save-dsa_heading {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cold-black-color);
+}
+
+.save-dsa_btn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.save-dsa_btn {
+    background: var(--primary-color);
+    padding: 8px 0;
+    width: 100%;
+    font-size: 21px;
+    border-radius: 8px;
+    color: var(--color-white);
+    cursor: pointer;
+}
+.save-dsa_btn:nth-child(1) {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}   

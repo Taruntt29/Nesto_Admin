@@ -1,0 +1,31 @@
+.blog-view_col {
+    display: flex;
+    padding-bottom: 2.2%;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--divider);
+}
+
+.blog-view_div-1 {
+    width: fit-content;
+    margin-top: 1%;
+}
+
+.blog-view_div-2 {
+    background: var(--lite-skyblue);
+    padding: 10px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.profileImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+}
+
+.edit_icon {
+    right: 2%;
+    bottom: 4%;
+    cursor: pointer;
+    position: absolute;
+}

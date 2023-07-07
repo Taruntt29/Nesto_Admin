@@ -1,0 +1,72 @@
+.admin-header {
+  height: 14vh !important;
+  padding: 0 20px;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.admin-header_logo {
+  width: 200px;
+}
+
+.admin-header_search {
+  width: 460px !important;
+  margin-left: 6%;
+  padding: 12px 4px 12px 55px;
+  border: none;
+  background: var(--wild-sand);
+  color: var(--gray-color);
+}
+
+.admin-header_search::placeholder {
+  color: var(--silver-surfer) !important;
+}
+
+.admin-header_search:focus,
+.admin-header_search:active {
+  outline: none;
+  box-shadow: none;
+  background: var(--wild-sand);
+}
+
+.admin-header_search_icon {
+  position: absolute;
+  left: 8%;
+  bottom: 26%;
+  font-size: 21px;
+  color: var(--silver-surfer);
+}
+/* Left Content Css =====================
+====================================== */
+.admin-header_help_icon {
+  width: 100%;
+  transition: var(--transition);
+  transform: scale(1);
+  cursor: pointer;
+}
+.admin-header_help_icon:hover {
+  transform: rotate(10deg) scale(1);
+  /* transform: rotate(10deg) scale(1.045); */
+}
+.admin-header_profile_img {
+  width: 60px;
+  cursor: pointer;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.admin-header_profile_img:hover {
+  transform: rotate(10deg) scale(1.045);
+}
+.admin-header_profile_name {
+  display: block;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.admin-header_profile_role {
+  display: block;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 19px;
+  color: var(--silver-surfer);
+}
