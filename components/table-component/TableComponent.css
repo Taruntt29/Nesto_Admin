@@ -1,0 +1,47 @@
+.Table {
+  margin: 20px;
+  font-size: 14px;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+td {
+  vertical-align: middle;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+th input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+form > * {
+  margin-right: 20px;
+}
+
+form > select {
+  width: 100px;
+}
+
+.dropdown-toggle {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #495057;
+}

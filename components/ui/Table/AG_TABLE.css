@@ -1,0 +1,9 @@
+.bm_tableborder {
+  border: none;
+}
+
+.ag-theme-alpine {
+  /* disable all borders */
+  --ag-borders: none;
+  /* then add back a border between rows */
+}

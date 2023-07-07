@@ -1,0 +1,34 @@
+.custom-button {
+  background-color: #278fd9;
+  border-radius: 8.6px;
+  border: none;
+  font-family: 'Manrope';
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.custom-button.custom-button-primary {
+  background: #278fd9;
+  border-radius: 8.6px;
+}
+
+.custom-button.custom-button-outline-primary {
+  font-family: 'Manrope';
+  font-weight: 500;
+  font-size: 14px;
+  color: #278fd9;
+  background-color: transparent;
+  border: 1px solid #278fd9;
+  border-radius: 8.6px;
+  color: #278fd9;
+}
+
+.custom-button.custom-button-secondary {
+  font-family: 'Manrope';
+  background-color: #e2e2e2;
+  border-radius: 8.6px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #69748c;
+}
